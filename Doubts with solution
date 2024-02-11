@@ -1,0 +1,50 @@
+27th jan 
+What is difference between groovy script and jenkins declarative pipeline?
+
+I have a question that k8s manifest file and docker file are responsibilties for Development or devops engineer, as i am working as production support in my company and over there we dont write that and there is no devops team, so mostly it is written by developers?
+
+What is groovy development? How it is different from declarative pipeline?
+
+How do we know  that how many master are controlling how many slaves?
+
+28th jan
+
+How can we maintain automatic version maintenance in cicd without manual intervention? And for docker as well? Suppose the pipeline is running 20 times a day?
+
+Can we upgrade the EC2 instance type in order to avoid the lagging which we are facing as in future the project will be huge?
+
+System Design importance for good product based company.
+
+ ls -l /var/run/docker.sock
+srw-rw---- 1 root docker 0 Jan 31 08:45 /var/run/docker.sock
+
+Suppose some images are not there so docker automatically fetches from docker hub? In case of open source image?
+
+In your pom.xml maven version is different wrt to ubuntu? Doesn’t it create problem? — no
+
+
+3rd feb and 4th Feb
+
+How can we maintain automatic version maintenance in cicd without manual intervention? And for docker as well? Suppose the pipeline is running 20 times a day?  4th feb recording time 11:45 am
+
+https://stackoverflow.com/questions/62849887/is-there-a-good-approach-at-automatically-incrementing-maven-versions
+
+Who writes test cases for mvn test steps.—developers
+
+How schduler is scheduling the pod since it is not directly communicating with kublet?  As per your diagram api server is the way of communication?
+—— via api server
+
+If service acts like router it will route to pod then why do we need ports section? Since deployment has already ports defined in manifest file? 
+
+What if we have two pods inside a node? How we will write ports for p1 and p2?
+
+What are we going to learn in cd deployment? Argo cd ? I mean pipeline?
+——ansible
+
+5th feb doubts
+
+How the path are mentioned the k8s files? http://ec2ip:port/products, so /products is the relative path which is providing the json data , where it is mentioned? — in the code
+
+Why pod is restarting , liveness prob troubleshooting how to do? --- Document will be attached.
+
+The health check ( path and port) that we are providing in k8s manifest file under liveness prob, how to decide that? Development team
